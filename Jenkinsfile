@@ -3,9 +3,7 @@ pipeline {
 
     stages {
         stage('Example stage 1') {
-            environment {
-                BITBUCKET_COMMON_CREDS = credentials('jenkins-bitbucket-common-creds')
-            }
+
             steps {
                 echo 'Cai quan 1'
             }
