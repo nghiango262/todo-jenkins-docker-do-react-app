@@ -1,11 +1,5 @@
 pipeline {
-    agent {
-
-    }
-
-    environment {
-        
-    }
+    agent none 
 
     stages {
         stage('Example stage 1') {
