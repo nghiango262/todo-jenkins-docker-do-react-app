@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Example stage 1') {
             steps {
-                echo 'Cai quan 1 mkajjhdhdh ma sao lai co the ko autorun'
+                echo 'Day la step 1'            
             }
         }
         stage('Example stage 2') {
             steps {
-                echo 'Cai quan 2'
+                echo 'Day la step 2'
             }
         }
     }
