@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Example stage 1') {
             steps {
-                echo 'Cai quan 1'
+                echo 'Cai quan 1 mkajjhdhdh'
             }
         }
         stage('Example stage 2') {
