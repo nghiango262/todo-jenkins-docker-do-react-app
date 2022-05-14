@@ -3,7 +3,6 @@ pipeline {
 
     stages {
         stage('Example stage 1') {
-            sleep time: 5000, unit: 'MILLISECONDS'
             steps {
                 echo 'Cai quan 1'
             }
